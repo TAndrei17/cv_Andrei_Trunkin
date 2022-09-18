@@ -1,0 +1,177 @@
+body {
+    background: white;   
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+
+a {
+    color:black;
+    text-decoration: none;
+    }
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:active {
+    color:blue;
+}
+
+a:visited {
+    color:grey;
+}
+
+
+h1 {
+    color: cornflowerblue;        
+    }
+
+h2 {
+        color: cornflowerblue;
+    }
+
+    .avatar {
+        width: 150px;
+        border-radius: 20px;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 25) ;
+    }
+    
+    .container {
+        max-width: 85%;
+        margin: auto;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    .navigation {
+        position: fixed;
+        top: 0;
+        width: 100%;       
+    }
+
+    .navigation > div  {
+        float: left;
+        background: lightyellow;
+        height: 50px;
+        border: 2px solid cornflowerblue;
+        width: 32%;
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 700;
+        text-align:center;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-left: 5px;
+        color: cornflowerblue;
+        padding: 13px;
+    }
+        
+
+    .shapka {
+        display: flex;
+        margin-bottom: 25px;  
+    }
+
+    @media (max-width: 700px) {
+        .shapka {
+            text-align: center;
+            display: block;
+        }
+    }
+
+    .info-text {
+        margin-left: 40px;
+       
+    }
+
+
+    .textm {
+        background-color: lightyellow;
+        padding: 0px 20px;
+        border: 2px solid cornflowerblue;
+        margin-bottom: 25px;
+        border-radius: 10px;              
+    }
+
+    .textm h2 {
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .textm p {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .myproject {
+        background-color: lightblue;        
+    }
+
+    .myproject ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 18px;
+        list-style-type: circle;
+        
+    }
+
+    .contacts h2 {
+        text-align: center;
+    }
+
+    .form-group label {
+        display:block;
+        font-size: 14px;
+        color:cornflowerblue;
+    }
+
+    .form-group input {
+        width: 100%;
+        box-sizing: border-box;
+        border:none;
+        border-bottom: 1px solid #ccc;
+        color:black;
+        padding: 15px 0 10px;
+        outline: none;
+        font-family: inherit;
+    }
+
+    .form-group textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border:none;
+        border-bottom: 1px solid #ccc;
+        color:black;
+        padding: 15px 0 10px;
+        outline: none;
+        font-family: inherit;
+    }
+
+    .row {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .row > .form-group {
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .btn {
+        background: lightblue;
+        color:blue;
+        padding: 15px 20px;
+        font-family: inherit;
+        border-radius: 10px;
+        border: none;
+
+    }
+
+    .btn:hover {
+        opacity: 0.9;
+    }
+
+   
+      
